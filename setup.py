@@ -29,7 +29,7 @@ setup(
     ],
     python_requires='>=3.6.0',
     install_requires=['scipy==1.7.3', 'matplotlib', 'pytest', 'pygears'],
-    setup_requires=['numpy', 'matplotlib', 'pytest', 'pygears'],
+    setup_requires=['numpy==1.21.3', 'matplotlib', 'pytest', 'pygears'],
     package_data={'': ['*.j2', '*.sv']},
     include_package_data=True,
     keywords=
